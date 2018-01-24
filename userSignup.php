@@ -148,12 +148,7 @@
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <label class="col-sm-3 form-control-label">Type </label>
-                                    <div class="col-sm-9">
-                                        <input type="" class="form-control">
-                                    </div>
-                                </div>
+                                
                                 <div class="form-group row">
                                     <label for="sel1" class="col-sm-3 form-control-label">Type:</label>
                                     <div class="col-sm-9">
