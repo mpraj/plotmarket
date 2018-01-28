@@ -1,22 +1,36 @@
 <?php include_once('template/header.php') ?>
 
+<nav class="navbar navbar-expand-lg p-1">
+    <div class="container">
+        <!-- Navbar Brand --><a href="index.html" class="navbar-brand"><!--<img src="https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/img/logo.png" alt="...">-->
+            <h2><small>Plot</small>Market</h2></a>
+        <!-- Toggle Button-->
+        <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span>Menu</span><i class="fa fa-bars"></i></button>
+        <!-- Navbar Menu -->
+        <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <!-- Search-->
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item"><a href="category.html" class="nav-link">Listings</a>
+                </li>
+
+                <li class="nav-item"><a href="blog.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">About</a>
+                </li>
+            </ul><a href="/userLogin.php" class="btn navbar-btn btn-outline-primary mt-3 mt-lg-0 ml-lg-3">Login</a>
+        </div>
+    </div>
+</nav>
+
 <div class="page login-page">
 <section class="container d-flex align-items-center">
-    <div class="form-holder has-shadow">
-        <div class="row">
+    <div class="form-holder">
 
-            <div class="col-lg-6">
-                <div class="info d-flex align-items-center">
-                    <div class="content">
-                        <div class="logo">
-                            <h1><small>Plot</small>Market</h1>
-                        </div>
-                        <p>your Dreamland portal</p>
-                    </div>
-                </div>
-            </div>
+
             <!-- Form Elements -->
-            <div class="col-lg-6 bg-white">
+            <div class="bg-white card" style="max-width: 570px;margin: auto">
                 <div class="form d-flex align-items-center">
 
                     <!--<div class="card-header d-flex align-items-center">
@@ -226,7 +240,7 @@
                 </div>
                 </div>
             </div>
-        </div>
+
     </div>
 </section>
 </div>
