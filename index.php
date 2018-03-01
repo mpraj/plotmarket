@@ -20,9 +20,9 @@
     <!-- Fancy Box-->
     <link rel="stylesheet" href="https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/css/jquery.fancybox.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/css/style.violet.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="/css/style.violet.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/img/favicon.ico">
     <!-- Font Awesome CSS-->
@@ -50,9 +50,9 @@
             <div id="navbarcollapse" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <!-- Search-->
-                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a>
+                    <li class="nav-item"><a href="index.php" class="nav-link active">Home</a>
                     </li>
-                    <li class="nav-item"><a href="category.html" class="nav-link">Listings</a>
+                    <li class="nav-item"><a href="listing.php" class="nav-link">Listings</a>
                     </li>
 
                     <li class="nav-item"><a href="blog.html" class="nav-link">Contact</a>
