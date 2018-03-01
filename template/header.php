@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="/css/style.default.css" id="theme-stylesheet">
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/css/bootstrap-select.min.css">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="/css/custom.css">
     <!-- Favicon-->
